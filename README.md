@@ -49,6 +49,12 @@ cd sim && cargo test --release          # simulator tests: vendor firmware and c
 cargo run --release -- run ../firmware/target/calcu16-fw.hex
 ```
 
+## License
+
+The project's own code and documentation are under the [MIT License](LICENSE). This does not cover third-party material in the repository: the HP-16C handbook scan (© HP) and the vendor firmware and artwork (© SwissMicros), see below.
+
 ## Intellectual property
 
 The SwissMicros firmware images and artwork are not part of this repository; `.gitignore` excludes them. The HP-16C handbook scan and the photo are included as references.
+
+SwissMicros, DM16L and HP-16C are names of their respective owners, used here only to describe what this project runs on and is inspired by.

@@ -2,6 +2,7 @@
 name = "dm16l"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
 description = "Calc-U-16 firmware for the SwissMicros DM16L: board support and main loop (LPC111x)"
 
 [dependencies]

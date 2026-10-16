@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = ["calc", "dm16l"]
+# `cargo test` at the workspace root runs the host-testable crates only;
+# the firmware is built from dm16l/ (see build.sh).
+default-members = ["calc"]
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+debug = true

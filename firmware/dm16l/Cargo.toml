@@ -1,0 +1,16 @@
+[package]
+name = "dm16l"
+version = "0.1.0"
+edition = "2021"
+description = "Calc-U-16 firmware for the SwissMicros DM16L: board support and main loop (LPC111x)"
+
+[dependencies]
+calc = { path = "../calc" }
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+panic-halt = "1"
+
+[[bin]]
+name = "dm16l"
+test = false
+bench = false

@@ -1,0 +1,7 @@
+[package]
+name = "calc"
+version = "0.1.0"
+edition = "2021"
+description = "Calc-U-16 calculator core and display: hardware-independent, host-testable"
+
+[dependencies]

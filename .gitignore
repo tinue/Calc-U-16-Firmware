@@ -1,0 +1,23 @@
+# --- SwissMicros intellectual property: never commit ---
+# Factory firmware images and their notes; fetch with tools/fetch-vendor-firmware.sh
+vendor/
+*.hex
+# Raw firmware binaries / disassembly dumps derived from them
+*.bin
+*.dis
+# SwissMicros artwork (e.g. visual_assets drawings), if ever downloaded for a GUI
+assets/swissmicros/
+
+# --- build and runtime output ---
+sim/target/
+sim/state/
+screenshots/
+state/
+.DS_Store
+
+# --- new firmware build output ---
+firmware/target/
+.idea/
+
+# display lab renders
+tools/display_lab/out/
